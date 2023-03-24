@@ -1,0 +1,28 @@
+file_type: csv
+dataset_name: fires emissions
+file_name: asset_cropland-fires_emissions
+table_name: asset_cropland-fires_emissions
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+ - asset_id
+ - iso3_country
+ - original_inventory_sector
+ - start_time
+ - end_time
+ - temporal_granularity
+ - gas
+ - emissions_quantity
+ - emissions_factor
+ - emissions_factor_units
+ - capacity
+ - capacity_units
+ - capacity_factor
+ - activity
+ - activity_units
+ - created_date
+ - modified_date
+ - asset_name
+ - asset_type
+ - st_astext
